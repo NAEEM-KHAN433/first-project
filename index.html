@@ -1,16 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css
-    ">
+    <title>My Shopping Store</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>I am Naeem</h1>
-    <p>I READ IN CLASS 11TH I WANT TO BE A SOFTWEAR ENGINEER</p>
-    <h2>i like to play video games</h2>
-    <h3>KFC</h3>
+
+     <div class="login">
+        <h2>Login to Store 🛍️</h2>
+
+        <input type="text" id="username"
+            placeholder="Enter Username">
+
+        <input type="password" id="password"
+            placeholder="Enter Password">
+
+        <button onclick="login()">Login</button>
+
+        <p id="message"></p>
+    </div>
+
+    <header>
+        <h1>My Shopping Store 🛍️</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Our Store!</h2>
+        <p>Find your favorite products at the best prices.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <h2 class="heading">Our Products</h2>
+
+    <section class="products">
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=1">
+            <h3>Smart Watch</h3>
+            <p>Rs. 2500</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=2">
+            <h3>Headphones</h3>
+            <p>Rs. 1800</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=3">
+            <h3>Shoes</h3>
+            <p>Rs. 3500</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 My Shopping Store. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
